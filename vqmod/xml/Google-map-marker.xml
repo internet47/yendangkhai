@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+   <id>Google Map with marker</id>
+   <version>0.0</version>
+   <vqmver>2.X</vqmver>
+   <author>Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)</author>
+        <file name="catalog/controller/common/header.php">
+        <operation>
+          <search position="before"><![CDATA[
+            $data['base'] = $server;
+            ]]></search>
+          <add><![CDATA[
+         $data['address'] = $this->config->get('config_address'); 
+         $data['geo'] = $this->config->get('config_geocode'); 
+          ]]></add>
+        </operation>
+      </file>
+
+
+
+        <file name="catalog/view/theme/*/template/common/header.tpl">
+                <operation info="add more link">
+                        <search position="after"><![CDATA[
+                       <?php echo $google_analytics; ?>
+                        ]]></search>
+
+                        <add><![CDATA[
+                                       <style>
+                                                 #map-canvas {
+                                                  height: 400px;
+                                                  width: 100%;
+                                           
+                                                  margin: 0px;
+                                                  padding: 0px
+                                                }
+                                              </style>
+                                              <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+                                              <script>
+                                          // This example displays a marker at the center of Australia.
+                                          // When the user clicks the marker, an info window opens.
+                                           
+                                          function initialize() {
+                                            var myLatlng = new google.maps.LatLng(<?php echo $geo; ?>);
+                                            var mapOptions = {
+                                              zoom: 18,
+                                              center: myLatlng
+                                            };
+                                           
+                                            var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+                                           
+                                            var contentString = '<div id="row" style="padding: 10px;">'+
+                                                      '<div class="col-md-12"><img src="<?php echo $logo;?>" class="img-responsive img-thumbnail"></div>'+
+                                                      '<div class="col-md-12">'+
+                                                      '<h2><?php echo $name; ?></h2>'+
+                                                      '</div>'+
+                                                      '<div class="col-md-12">'+
+                                                      '<address><?php echo $address; ?></address>'+
+                                                      '</div>'+
+                                                '</div>';
+                                           
+                                            var infowindow = new google.maps.InfoWindow({
+                                                content: contentString,
+                                                 maxWidth: 600,
+                                            });
+
+                                            var infoWindow2 = new google.maps.InfoWindow({
+                                              content: contentString,
+                                              position: myLatlng,
+                                               maxWidth: 500,
+                                          });//use for auto load
+
+                                           
+                                            var marker = new google.maps.Marker({
+                                                animation: google.maps.Animation.DROP,
+                                                position: myLatlng,
+                                                map: map,
+                                                title: '<?php echo $name; ?>'
+                                            });
+
+                                            google.maps.event.addListener(marker, 'click', function() {
+                                              infowindow.open(map,marker);
+                                            });
+
+                                             //infoWindow2.open(map,marker);
+
+
+                                          }//end innitial
+
+                                          google.maps.event.addDomListener(window, 'load', initialize);
+                                              </script>
+                        ]]></add>
+                </operation>
+        </file>
+
+
+
+    <file name="catalog/view/theme/*/template/information/contact.tpl">
+    <operation>
+      <search position="before"><![CDATA[
+         <?php if ($locations) { ?>
+        ]]></search>
+      <add><![CDATA[
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+        <h1>2>Bản đồ hướng dẫn:</h1>
+        </div>
+        <div class="col-md-12 col-xs-12">
+              <div id="map-canvas"></div>
+        </div>
+      </div>
+      ]]></add>
+    </operation>
+  </file>
+</modification>
+

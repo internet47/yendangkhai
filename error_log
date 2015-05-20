@@ -1,0 +1,233 @@
+[26-Mar-2015 09:02:58] PHP Warning:  require_once() [<a href='function.require-once'>function.require-once</a>]: Unable to access /home/internet47/domains/muaban.internet47.net/public_html/system/startup.php in /home/rausacha/public_html/index.php on line 21
+[26-Mar-2015 09:02:58] PHP Warning:  require_once(/home/internet47/domains/muaban.internet47.net/public_html/system/startup.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/rausacha/public_html/index.php on line 21
+[26-Mar-2015 09:02:58] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/internet47/domains/muaban.internet47.net/public_html/system/startup.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rausacha/public_html/index.php on line 21
+[06-Apr-2015 08:50:55 Asia/Bangkok] PHP Deprecated:  Function split() is deprecated in /home/rausacha/public_html/info.php on line 37
+[06-Apr-2015 08:50:55 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/rausacha/public_html/info.php on line 44
+[06-Apr-2015 08:50:55 Asia/Bangkok] PHP Notice:  Undefined variable: PHP_Version in /home/rausacha/public_html/info.php on line 62
+[06-Apr-2015 08:50:55 Asia/Bangkok] PHP Notice:  Undefined variable: MOD_SSL_Version in /home/rausacha/public_html/info.php on line 63
+[06-Apr-2015 08:50:55 Asia/Bangkok] PHP Notice:  Undefined variable: OPENSSL_Version in /home/rausacha/public_html/info.php on line 64
+[06-Apr-2015 08:50:56 Asia/Bangkok] PHP Deprecated:  Function split() is deprecated in /home/rausacha/public_html/info.php on line 37
+[06-Apr-2015 08:50:56 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/rausacha/public_html/info.php on line 44
+[06-Apr-2015 08:50:56 Asia/Bangkok] PHP Notice:  Undefined variable: PHP_Version in /home/rausacha/public_html/info.php on line 62
+[06-Apr-2015 08:50:56 Asia/Bangkok] PHP Notice:  Undefined variable: MOD_SSL_Version in /home/rausacha/public_html/info.php on line 63
+[06-Apr-2015 08:50:56 Asia/Bangkok] PHP Notice:  Undefined variable: OPENSSL_Version in /home/rausacha/public_html/info.php on line 64
+[06-Apr-2015 08:52:04 Asia/Bangkok] PHP Deprecated:  Function split() is deprecated in /home/rausacha/public_html/info.php on line 37
+[06-Apr-2015 08:52:04 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/rausacha/public_html/info.php on line 44
+[06-Apr-2015 08:52:04 Asia/Bangkok] PHP Notice:  Undefined variable: PHP_Version in /home/rausacha/public_html/info.php on line 62
+[06-Apr-2015 08:52:04 Asia/Bangkok] PHP Notice:  Undefined variable: MOD_SSL_Version in /home/rausacha/public_html/info.php on line 63
+[06-Apr-2015 08:52:04 Asia/Bangkok] PHP Notice:  Undefined variable: OPENSSL_Version in /home/rausacha/public_html/info.php on line 64
+[06-Apr-2015 08:53:17 Asia/Bangkok] PHP Deprecated:  Function split() is deprecated in /home/rausacha/public_html/info.php on line 37
+[06-Apr-2015 08:53:20 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/rausacha/public_html/info.php on line 44
+[06-Apr-2015 08:53:20 Asia/Bangkok] PHP Notice:  Undefined variable: PHP_Version in /home/rausacha/public_html/info.php on line 62
+[06-Apr-2015 08:53:20 Asia/Bangkok] PHP Notice:  Undefined variable: MOD_SSL_Version in /home/rausacha/public_html/info.php on line 63
+[06-Apr-2015 08:53:20 Asia/Bangkok] PHP Notice:  Undefined variable: OPENSSL_Version in /home/rausacha/public_html/info.php on line 64
+[06-Apr-2015 08:53:26 Asia/Bangkok] PHP Deprecated:  Function split() is deprecated in /home/rausacha/public_html/info.php on line 37
+[06-Apr-2015 08:53:27 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/rausacha/public_html/info.php on line 44
+[06-Apr-2015 08:53:27 Asia/Bangkok] PHP Notice:  Undefined variable: PHP_Version in /home/rausacha/public_html/info.php on line 62
+[06-Apr-2015 08:53:27 Asia/Bangkok] PHP Notice:  Undefined variable: MOD_SSL_Version in /home/rausacha/public_html/info.php on line 63
+[06-Apr-2015 08:53:27 Asia/Bangkok] PHP Notice:  Undefined variable: OPENSSL_Version in /home/rausacha/public_html/info.php on line 64
+[06-Apr-2015 08:53:31 Asia/Bangkok] PHP Deprecated:  Function split() is deprecated in /home/rausacha/public_html/info.php on line 37
+[06-Apr-2015 08:53:32 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/rausacha/public_html/info.php on line 44
+[06-Apr-2015 08:53:32 Asia/Bangkok] PHP Notice:  Undefined variable: PHP_Version in /home/rausacha/public_html/info.php on line 62
+[06-Apr-2015 08:53:32 Asia/Bangkok] PHP Notice:  Undefined variable: MOD_SSL_Version in /home/rausacha/public_html/info.php on line 63
+[06-Apr-2015 08:53:32 Asia/Bangkok] PHP Notice:  Undefined variable: OPENSSL_Version in /home/rausacha/public_html/info.php on line 64
+[06-Apr-2015 08:53:31 Asia/Bangkok] PHP Deprecated:  Function split() is deprecated in /home/rausacha/public_html/info.php on line 37
+[06-Apr-2015 08:53:32 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/rausacha/public_html/info.php on line 44
+[06-Apr-2015 08:53:32 Asia/Bangkok] PHP Notice:  Undefined variable: PHP_Version in /home/rausacha/public_html/info.php on line 62
+[06-Apr-2015 08:53:32 Asia/Bangkok] PHP Notice:  Undefined variable: MOD_SSL_Version in /home/rausacha/public_html/info.php on line 63
+[06-Apr-2015 08:53:32 Asia/Bangkok] PHP Notice:  Undefined variable: OPENSSL_Version in /home/rausacha/public_html/info.php on line 64
+[06-Apr-2015 08:55:28 Asia/Bangkok] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 7
+[06-Apr-2015 08:55:30 Asia/Bangkok] PHP Notice:  Error: Could not make a database link (1040) Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 10
+[06-Apr-2015 08:55:30 Asia/Bangkok] PHP Warning:  mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 13
+[06-Apr-2015 08:55:30 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 14
+[06-Apr-2015 08:55:30 Asia/Bangkok] PHP Warning:  mysqli::real_escape_string() [<a href='mysqli.real-escape-string'>mysqli.real-escape-string</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 45
+[06-Apr-2015 08:55:30 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 08:55:30 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 08:55:30 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 45
+[06-Apr-2015 08:55:30 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 08:55:30 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 08:55:30 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 08:55:30 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 08:55:30 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 62
+[06-Apr-2015 08:55:30 Asia/Bangkok] PHP Warning:  fopen(/home/rausacha/public_html/system/logs/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Is a directory in /home/rausacha/public_html/system/library/log.php on line 6
+[06-Apr-2015 08:55:47 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/rausacha/public_html/index.php on line 101
+[06-Apr-2015 08:56:30 Asia/Bangkok] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 7
+[06-Apr-2015 08:56:36 Asia/Bangkok] PHP Notice:  Error: Could not make a database link (1040) Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 10
+[06-Apr-2015 08:56:36 Asia/Bangkok] PHP Warning:  mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 13
+[06-Apr-2015 08:56:36 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 14
+[06-Apr-2015 08:56:36 Asia/Bangkok] PHP Warning:  mysqli::real_escape_string() [<a href='mysqli.real-escape-string'>mysqli.real-escape-string</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 45
+[06-Apr-2015 08:56:36 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 08:56:36 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 08:56:36 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 45
+[06-Apr-2015 08:56:36 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 08:56:36 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 08:56:36 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 08:56:36 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 08:56:36 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 62
+[06-Apr-2015 08:56:36 Asia/Bangkok] PHP Warning:  fopen(/home/rausacha/public_html/system/logs/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Is a directory in /home/rausacha/public_html/system/library/log.php on line 6
+[06-Apr-2015 08:57:03 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/rausacha/public_html/index.php on line 101
+[06-Apr-2015 08:57:20 Asia/Bangkok] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/1040): Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 7
+[06-Apr-2015 08:57:20 Asia/Bangkok] PHP Deprecated:  Function split() is deprecated in /home/rausacha/public_html/info.php on line 37
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Notice:  Error: Could not make a database link (1040) Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 10
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/rausacha/public_html/info.php on line 44
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Warning:  mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 13
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Notice:  Undefined variable: PHP_Version in /home/rausacha/public_html/info.php on line 62
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 14
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Notice:  Undefined variable: MOD_SSL_Version in /home/rausacha/public_html/info.php on line 63
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Notice:  Undefined variable: OPENSSL_Version in /home/rausacha/public_html/info.php on line 64
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Warning:  mysqli::real_escape_string() [<a href='mysqli.real-escape-string'>mysqli.real-escape-string</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 45
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 45
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 62
+[06-Apr-2015 08:57:21 Asia/Bangkok] PHP Warning:  fopen(/home/rausacha/public_html/system/logs/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Is a directory in /home/rausacha/public_html/system/library/log.php on line 6
+[06-Apr-2015 08:57:29 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/rausacha/public_html/index.php on line 101
+[06-Apr-2015 08:57:52 Asia/Bangkok] PHP Deprecated:  Function split() is deprecated in /home/rausacha/public_html/info.php on line 37
+[06-Apr-2015 08:57:53 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/rausacha/public_html/info.php on line 44
+[06-Apr-2015 08:57:53 Asia/Bangkok] PHP Notice:  Undefined variable: PHP_Version in /home/rausacha/public_html/info.php on line 62
+[06-Apr-2015 08:57:53 Asia/Bangkok] PHP Notice:  Undefined variable: MOD_SSL_Version in /home/rausacha/public_html/info.php on line 63
+[06-Apr-2015 08:57:53 Asia/Bangkok] PHP Notice:  Undefined variable: OPENSSL_Version in /home/rausacha/public_html/info.php on line 64
+[06-Apr-2015 08:57:55 Asia/Bangkok] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 7
+[06-Apr-2015 08:57:57 Asia/Bangkok] PHP Notice:  Error: Could not make a database link (1040) Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 10
+[06-Apr-2015 08:57:57 Asia/Bangkok] PHP Warning:  mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 13
+[06-Apr-2015 08:57:57 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 14
+[06-Apr-2015 08:57:57 Asia/Bangkok] PHP Warning:  mysqli::real_escape_string() [<a href='mysqli.real-escape-string'>mysqli.real-escape-string</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 45
+[06-Apr-2015 08:57:57 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 08:57:57 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 08:57:57 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 45
+[06-Apr-2015 08:57:57 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 08:57:57 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 08:57:57 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 08:57:57 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 08:57:57 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 62
+[06-Apr-2015 08:57:57 Asia/Bangkok] PHP Warning:  fopen(/home/rausacha/public_html/system/logs/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Is a directory in /home/rausacha/public_html/system/library/log.php on line 6
+[06-Apr-2015 08:58:02 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/rausacha/public_html/index.php on line 101
+[06-Apr-2015 08:58:31 Asia/Bangkok] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 7
+[06-Apr-2015 08:58:35 Asia/Bangkok] PHP Notice:  Error: Could not make a database link (1040) Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 10
+[06-Apr-2015 08:58:35 Asia/Bangkok] PHP Warning:  mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 13
+[06-Apr-2015 08:58:35 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 14
+[06-Apr-2015 08:58:35 Asia/Bangkok] PHP Warning:  mysqli::real_escape_string() [<a href='mysqli.real-escape-string'>mysqli.real-escape-string</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 45
+[06-Apr-2015 08:58:35 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 08:58:35 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 08:58:35 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 45
+[06-Apr-2015 08:58:37 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 08:58:43 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 08:58:43 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 08:58:43 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 08:58:43 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 62
+[06-Apr-2015 08:58:46 Asia/Bangkok] PHP Warning:  fopen(/home/rausacha/public_html/system/logs/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Is a directory in /home/rausacha/public_html/system/library/log.php on line 6
+[06-Apr-2015 08:58:52 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/rausacha/public_html/index.php on line 101
+[06-Apr-2015 09:01:34 Asia/Bangkok] PHP Deprecated:  Function split() is deprecated in /home/rausacha/public_html/info.php on line 37
+[06-Apr-2015 09:01:35 Asia/Bangkok] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 7
+[06-Apr-2015 09:01:36 Asia/Bangkok] PHP Notice:  Error: Could not make a database link (1040) Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 10
+[06-Apr-2015 09:01:36 Asia/Bangkok] PHP Warning:  mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 13
+[06-Apr-2015 09:01:36 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 14
+[06-Apr-2015 09:01:36 Asia/Bangkok] PHP Warning:  mysqli::real_escape_string() [<a href='mysqli.real-escape-string'>mysqli.real-escape-string</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 45
+[06-Apr-2015 09:01:36 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 09:01:36 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 09:01:36 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 45
+[06-Apr-2015 09:01:36 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 09:01:36 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 09:01:36 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 09:01:36 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 09:01:36 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 62
+[06-Apr-2015 09:01:36 Asia/Bangkok] PHP Warning:  fopen(/home/rausacha/public_html/system/logs/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Is a directory in /home/rausacha/public_html/system/library/log.php on line 6
+[06-Apr-2015 09:01:37 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/rausacha/public_html/info.php on line 44
+[06-Apr-2015 09:01:37 Asia/Bangkok] PHP Notice:  Undefined variable: PHP_Version in /home/rausacha/public_html/info.php on line 62
+[06-Apr-2015 09:01:37 Asia/Bangkok] PHP Notice:  Undefined variable: MOD_SSL_Version in /home/rausacha/public_html/info.php on line 63
+[06-Apr-2015 09:01:37 Asia/Bangkok] PHP Notice:  Undefined variable: OPENSSL_Version in /home/rausacha/public_html/info.php on line 64
+[06-Apr-2015 09:01:44 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/rausacha/public_html/index.php on line 101
+[06-Apr-2015 09:01:50 Asia/Bangkok] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 7
+[06-Apr-2015 09:01:50 Asia/Bangkok] PHP Notice:  Error: Could not make a database link (1040) Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 10
+[06-Apr-2015 09:01:50 Asia/Bangkok] PHP Warning:  mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 13
+[06-Apr-2015 09:01:50 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 14
+[06-Apr-2015 09:01:50 Asia/Bangkok] PHP Warning:  mysqli::real_escape_string() [<a href='mysqli.real-escape-string'>mysqli.real-escape-string</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 45
+[06-Apr-2015 09:01:50 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 09:01:50 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 09:01:50 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 45
+[06-Apr-2015 09:01:50 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 09:01:50 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 09:01:50 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 09:01:50 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 09:01:50 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 62
+[06-Apr-2015 09:01:50 Asia/Bangkok] PHP Warning:  fopen(/home/rausacha/public_html/system/logs/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Is a directory in /home/rausacha/public_html/system/library/log.php on line 6
+[06-Apr-2015 09:01:51 Asia/Bangkok] PHP Deprecated:  Function split() is deprecated in /home/rausacha/public_html/info.php on line 37
+[06-Apr-2015 09:01:52 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/rausacha/public_html/info.php on line 44
+[06-Apr-2015 09:01:52 Asia/Bangkok] PHP Notice:  Undefined variable: PHP_Version in /home/rausacha/public_html/info.php on line 62
+[06-Apr-2015 09:01:52 Asia/Bangkok] PHP Notice:  Undefined variable: MOD_SSL_Version in /home/rausacha/public_html/info.php on line 63
+[06-Apr-2015 09:01:52 Asia/Bangkok] PHP Notice:  Undefined variable: OPENSSL_Version in /home/rausacha/public_html/info.php on line 64
+[06-Apr-2015 09:01:58 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/rausacha/public_html/index.php on line 101
+[06-Apr-2015 09:02:08 Asia/Bangkok] PHP Deprecated:  Function split() is deprecated in /home/rausacha/public_html/info.php on line 37
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/rausacha/public_html/info.php on line 44
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Notice:  Undefined variable: PHP_Version in /home/rausacha/public_html/info.php on line 62
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Notice:  Undefined variable: MOD_SSL_Version in /home/rausacha/public_html/info.php on line 63
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Notice:  Undefined variable: OPENSSL_Version in /home/rausacha/public_html/info.php on line 64
+[06-Apr-2015 09:02:08 Asia/Bangkok] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/1040): Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 7
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Notice:  Error: Could not make a database link (1040) Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 10
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 13
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 14
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  mysqli::real_escape_string() [<a href='mysqli.real-escape-string'>mysqli.real-escape-string</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 45
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 45
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 62
+[06-Apr-2015 09:02:08 Asia/Bangkok] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 7
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Notice:  Error: Could not make a database link (1040) Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 10
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 13
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 14
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  mysqli::real_escape_string() [<a href='mysqli.real-escape-string'>mysqli.real-escape-string</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 45
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 45
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 62
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  fopen(/home/rausacha/public_html/system/logs/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Is a directory in /home/rausacha/public_html/system/library/log.php on line 6
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  fopen(/home/rausacha/public_html/system/logs/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Is a directory in /home/rausacha/public_html/system/library/log.php on line 6
+[06-Apr-2015 09:02:08 Asia/Bangkok] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 7
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Notice:  Error: Could not make a database link (1040) Too many connections in /home/rausacha/public_html/system/library/db/mysqli.php on line 10
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 13
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 14
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  mysqli::real_escape_string() [<a href='mysqli.real-escape-string'>mysqli.real-escape-string</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 45
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 45
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 18
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  DB\MySQLi::query() [<a href='db\mysqli.query'>db\mysqli.query</a>]: Couldn't fetch mysqli in /home/rausacha/public_html/system/library/db/mysqli.php on line 20
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  Invalid argument supplied for foreach() in /home/rausacha/public_html/index.php on line 54
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Notice:  Trying to get property of non-object in /home/rausacha/public_html/index.php on line 62
+[06-Apr-2015 09:02:09 Asia/Bangkok] PHP Warning:  fopen(/home/rausacha/public_html/system/logs/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Is a directory in /home/rausacha/public_html/system/library/log.php on line 6
+[06-Apr-2015 09:02:10 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/rausacha/public_html/index.php on line 101
+[06-Apr-2015 09:02:10 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/rausacha/public_html/index.php on line 101
+[06-Apr-2015 09:02:10 Asia/Bangkok] PHP Fatal error:  Call to a member function get() on a non-object in /home/rausacha/public_html/index.php on line 101
+[06-Apr-2015 09:08:18 Asia/Bangkok] PHP Deprecated:  Function split() is deprecated in /home/rausacha/public_html/info.php on line 37
+[06-Apr-2015 09:08:18 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/rausacha/public_html/info.php on line 44
+[06-Apr-2015 09:08:18 Asia/Bangkok] PHP Notice:  Undefined variable: PHP_Version in /home/rausacha/public_html/info.php on line 62
+[06-Apr-2015 09:08:18 Asia/Bangkok] PHP Notice:  Undefined variable: MOD_SSL_Version in /home/rausacha/public_html/info.php on line 63
+[06-Apr-2015 09:08:18 Asia/Bangkok] PHP Notice:  Undefined variable: OPENSSL_Version in /home/rausacha/public_html/info.php on line 64
+[06-Apr-2015 09:09:24 Asia/Bangkok] PHP Deprecated:  Function split() is deprecated in /home/rausacha/public_html/info.php on line 37
+[06-Apr-2015 09:09:24 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/rausacha/public_html/info.php on line 44
+[06-Apr-2015 09:09:24 Asia/Bangkok] PHP Notice:  Undefined variable: PHP_Version in /home/rausacha/public_html/info.php on line 62
+[06-Apr-2015 09:09:24 Asia/Bangkok] PHP Notice:  Undefined variable: MOD_SSL_Version in /home/rausacha/public_html/info.php on line 63
+[06-Apr-2015 09:09:24 Asia/Bangkok] PHP Notice:  Undefined variable: OPENSSL_Version in /home/rausacha/public_html/info.php on line 64
+[06-Apr-2015 09:09:26 Asia/Bangkok] PHP Deprecated:  Function split() is deprecated in /home/rausacha/public_html/info.php on line 37
+[06-Apr-2015 09:09:26 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/rausacha/public_html/info.php on line 44
+[06-Apr-2015 09:09:26 Asia/Bangkok] PHP Notice:  Undefined variable: PHP_Version in /home/rausacha/public_html/info.php on line 62
+[06-Apr-2015 09:09:26 Asia/Bangkok] PHP Notice:  Undefined variable: MOD_SSL_Version in /home/rausacha/public_html/info.php on line 63
+[06-Apr-2015 09:09:26 Asia/Bangkok] PHP Notice:  Undefined variable: OPENSSL_Version in /home/rausacha/public_html/info.php on line 64
+[12-May-2015 20:55:10 Asia/Bangkok] PHP Deprecated:  Function split() is deprecated in /home/yendangk/public_html/info.php on line 37
+[12-May-2015 20:55:10 Asia/Bangkok] PHP Notice:  Undefined offset: 1 in /home/yendangk/public_html/info.php on line 44
+[12-May-2015 20:55:10 Asia/Bangkok] PHP Notice:  Undefined variable: PHP_Version in /home/yendangk/public_html/info.php on line 62
+[12-May-2015 20:55:10 Asia/Bangkok] PHP Notice:  Undefined variable: MOD_SSL_Version in /home/yendangk/public_html/info.php on line 63
+[12-May-2015 20:55:10 Asia/Bangkok] PHP Notice:  Undefined variable: OPENSSL_Version in /home/yendangk/public_html/info.php on line 64

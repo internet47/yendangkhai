@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+   <id>Custom menu front end</id>
+   <version>0.0</version>
+   <vqmver>2.X</vqmver>
+   <author>Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)</author>
+
+        <file name="catalog/controller/common/header.php">
+                <operation info="add variable link">
+                        <search position="after"><![CDATA[
+                            $data['home'] = $this->url->link('common/home');
+                        ]]></search>
+                        <add><![CDATA[
+                            $data['vhome']      = $this->url->link('common/home');
+                            $data['vnews']      = $this->url->link('information/news');
+                            $data['vpromotion'] = $this->url->link('product/special');
+                            $data['aboutus']     = $this->url->link('information/information', 'information_id=4');
+                            $data['vchebien']     = $this->url->link('information/topic/category', 'category_topic_id=4');
+                            $data['vcongdung']     = $this->url->link('information/topic/category', 'category_topic_id=3');
+                        ]]></add>
+                </operation>
+        </file>
+
+
+        <file name="catalog/view/theme/*/template/common/header.tpl">
+                <operation info="add menu link">
+                        <search position="after"><![CDATA[
+                         <ul class="nav navbar-nav">
+                        ]]></search>
+                        <add><![CDATA[
+                            <li><a href="/"><i class="fa fa-home"></i></a></li>
+                            <li><a href="<?php echo $aboutus; ?>">GIỚI THIỆU</a></li>
+                        ]]></add>
+                </operation>
+
+
+                <operation info="add menu after product">
+                        <search position="after" trim="true" offset="2"><![CDATA[
+                          <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+                        ]]></search>
+                        <add><![CDATA[
+                            <li><a href ="/khuyen-mai">KHUYẾN MÃI</a></li>
+                            <li><a href ="/tin-tuc">TIN TỨC</a></li>
+                            <li><a href ="/cong-dung">CÔNG DỤNG</a></li>
+                            <li><a href ="/che-bien">CHẾ BIẾN</a></li>
+                            <li><a href ="#daily">ĐẠI LÝ</a></li>
+                            <li><a href ="<?php echo $contact ?>">LIÊN HỆ</a></li>
+                        ]]></add>
+                </operation>
+        </file>
+
+
+
+   
+</modification>
+

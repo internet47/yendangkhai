@@ -1,0 +1,630 @@
+2015-03-01 12:58:22 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+2015-03-01 12:58:25 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+2015-03-01 12:58:27 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+2015-03-01 13:00:04 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+2015-03-01 13:01:11 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-01 13:17:26 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-02 2:33:40 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-02 2:33:42 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-02 2:33:42 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-02 2:35:09 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-02 2:35:11 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-02 2:35:15 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-02 2:35:16 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-02 2:35:17 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-02 2:35:23 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-02 2:38:30 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-02 2:38:31 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-02 2:38:33 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-02 2:38:35 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-02 4:00:17 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-04 1:31:42 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+MOD: Viethemes - Custom CSS
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_comment'])) {
+LINE: 543
+FILE: admin/view/template/setting/setting.tpl
+CODE: <li><a href="#tab-store" data-toggle="tab"><?php echo $tab_store; ?></a></li>
+LINE: 34
+CODE: <div class="tab-content">
+LINE: 46
+CODE: </head>
+LINE: 51
+----------------------------------------------------------------
+2015-03-04 2:02:14 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-04 14:24:46 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-04 16:54:02 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------
+2015-03-04 16:54:43 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Colored Opencart
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
+LINE: 30
+FILE: catalog/controller/common/header.php
+CODE: $this->load->model('catalog/category');
+LINE: 82
+----------------------------------------------------------------

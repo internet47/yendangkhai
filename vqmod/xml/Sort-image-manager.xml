@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<id>Image Manager sort by last modified</id>
+	<version>0.0</version>
+    <vqmver>2.X</vqmver>
+    <author>Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)</author>
+    <link>http://www.facebook.com</link>
+    <file name="admin/controller/common/filemanager.php">
+       <operation info="add sort file by last modified">
+            <search position="before">
+            <![CDATA[
+              $images = array_merge($directories, $files);
+            ]]>
+         	</search>
+            <add>
+            <![CDATA[
+                    
+                    $file_tmp =array();
+                    foreach($files as $file)
+                    {
+                         $file_time= filemtime($file);//lấy time modified của file
+                         $last = date('d-m-Y H:i:s',$file_time);
+                         array_push($file_tmp, array("modi"=>$file_time,"path"=>$file)); //tạo mãng mới theo cấu trúc
+                    }
+                    
+
+                    //Sort
+                    $sortArray = array(); 
+                    foreach($file_tmp as $f)
+                    { 
+                        foreach($f as $key=>$value){ 
+                            if(!isset($sortArray[$key])){ 
+                                $sortArray[$key] = array(); 
+                            } 
+                            $sortArray[$key][] = $value; 
+                        } 
+                    } 
+
+                    $orderby = "modi"; //change this to whatever key you want from the array 
+                    array_multisort($sortArray[$orderby],SORT_DESC,$file_tmp); 
+
+
+                    $sorted = array();
+                    foreach($file_tmp as $ar)
+                    {
+                        array_push($sorted,$ar['path'] ); //tạo mãng mới bao gồm các phần tử đã sort
+                    }
+
+                    $files = $sorted;//gán mãng file đã sort vào 
+                    asort($directories);//sort thư mục luôn
+            ]]>
+        	 </add>
+        </operation>
+    </file>
+</modification>

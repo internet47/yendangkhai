@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<id>Auto generate SEO in admin</id>
+	<version>0.0</version>
+    <vqmver>2.X</vqmver>
+    <author>Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)</author>
+    <link>http://www.facebook.com</link>
+    <file name="admin/view/template/common/header.tpl">
+       <operation info="remove menu help in top bar">
+            <search position="replace">
+            <![CDATA[
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-life-ring fa-lg">
+            ]]>
+         	</search>
+            <add>
+            <![CDATA[
+    		<li class="dropdown"  style="display:none;">><a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-life-ring fa-lg">
+            ]]>
+        	 </add>
+        </operation>
+    </file>
+
+    <file name="admin/view/template/catalog/product_form.tpl">
+       <operation info="remove field sku ...">
+            <search position="replace" index="6,7,8,9,10,11">
+            <![CDATA[
+               <div class="form-group">
+            ]]>
+            </search>
+            <add>
+            <![CDATA[
+            <div class="form-group" style="display:none;"> 
+            ]]>
+             </add>
+        </operation>
+
+        
+        
+    </file>
+</modification>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+   <id>Add more Link - Clear to top menu in Admin</id>
+   <version>0.0</version>
+   <vqmver>2.X</vqmver>
+   <author>Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)</author>
+        <file name="admin/controller/common/header.php">
+                <operation info="add more link">
+                        <search position="replace"><![CDATA[
+                        $data['logout'] = $this->url->link('common/logout', 'token=' . $this->session->data['token'], 'SSL');
+                        ]]></search>
+
+                        <add><![CDATA[
+                        $data['logout'] = $this->url->link('common/logout', 'token=' . $this->session->data['token'], 'SSL');
+                        //Clear
+						$data['clear'] = $this->url->link('extension/modification/clear','token=' . $this->session->data['token'].'&clear_cache=true','SSL');
+						$data['addproduct'] = $this->url->link('catalog/product/add','token=' . $this->session->data['token'],'SSL');
+						$data['listproduct'] = $this->url->link('catalog/product/','token=' . $this->session->data['token'],'SSL');
+						$data['dashboard'] = $this->url->link('common/dashboard/','token=' . $this->session->data['token'],'SSL');
+						$data['homepage']=HTTP_CATALOG;
+                        $data['setting'] = $this->url->link('setting/setting/','token=' . $this->session->data['token'],'SSL');
+                        ]]></add>
+                </operation>
+        </file>
+
+        <file name="admin/view/template/common/header.tpl">
+                <operation info="show link url">
+                        <search position="replace"><![CDATA[
+                        <ul class="nav pull-right">
+                        ]]></search>
+
+                        <add><![CDATA[
+                <ul class="nav pull-right">
+                	<li><a href ="<?php echo $dashboard; ?>" >DASHBOARD <i class="fa fa-dashboard fa-lg"></i></a></li>
+					<li><a href ="<?php echo $addproduct; ?>" >ADD NEW <i class="fa fa-pencil fa-lg"></i></a></li>
+					<li><a href ="<?php echo $listproduct; ?>" >ALL PRODUCT <i class="fa fa-list fa-lg"></i></a></li>
+					<li><a href ="<?php echo $homepage; ?>" target=_blank>HOME PAGE <i class="fa fa-home fa-lg"></i></a></li>
+					<li><a href ="<?php echo $clear; ?>">CLEAR CACHE <i class="fa fa-bolt fa-lg"></i></a></li>
+                    <li><a href ="<?php echo $setting; ?>"><i class="fa fa-cog fa-lg"></i></a></li>
+                        ]]></add>
+
+                </operation>
+        </file>
+
+        
+</modification>

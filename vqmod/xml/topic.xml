@@ -1,0 +1,100 @@
+<modification>
+	<id>Add Topic module to admin menu</id>
+	<version>OC 2.x</version>
+	<vqmver>2.x</vqmver>
+	<author>Michael Tran</author>
+
+	<file name="catalog/controller/common/footer.php">
+		<operation>
+			<search position="after" index="1"><![CDATA[
+				$data['text_account']
+			]]></search>
+			<add><![CDATA[
+				$data['topic'] = $this->url->link('information/topic');
+				$data['text_topic'] = $this->language->get('text_topic');
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/*/common/footer.php">
+		<operation>
+			<search position="after" index="1"><![CDATA[
+				$_
+			]]></search>
+			<add><![CDATA[
+				$_['text_topic'] = 'Our Topic';
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/view/theme/*/template/common/footer.tpl">
+		<operation>
+			<search position="before"><![CDATA[
+				<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+			]]></search>
+			<add><![CDATA[
+				<li><a href="<?php echo $topic; ?>"><?php echo $text_topic; ?></a></li>
+			]]></add>
+		</operation>
+	</file>
+
+
+	<file name="admin/view/template/common/menu.tpl">
+		<operation>
+			<search position="after"><![CDATA[
+				<li><a href="<?php echo $feed; ?>"><?php echo $text_feed; ?></a></li>
+			]]></search>
+			<add><![CDATA[
+				<li><a href="<?php echo $category_topic; ?>">Topic category</a></li>
+			]]></add>
+		</operation>
+		<operation>
+			<search position="after"><![CDATA[
+				<li><a href="<?php echo $feed; ?>"><?php echo $text_feed; ?></a></li>
+			]]></search>
+			<add><![CDATA[
+				<li><a href="<?php echo $topic; ?>">Topic</a></li>
+			]]></add>
+		</operation>
+		
+	</file>
+	<file name="admin/controller/common/menu.php">
+		<operation>
+			<search position="after"><![CDATA[
+				$data['feed'] = $this->url->link('extension/feed', 'token=' . $this->session->data['token'], 'SSL');	
+			]]></search>
+			<add><![CDATA[
+				$data['topic'] = $this->url->link('extension/topic', 'token=' . $this->session->data['token'], 'SSL');	
+			]]></add>
+		</operation>
+		<operation>
+			<search position="after"><![CDATA[
+				$data['feed'] = $this->url->link('extension/feed', 'token=' . $this->session->data['token'], 'SSL');	
+			]]></search>
+			<add><![CDATA[
+				$data['category_topic'] = $this->url->link('extension/categorytopic', 'token=' . $this->session->data['token'], 'SSL');	
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/common/seo_url.php">
+		<operation>
+			<search position="before"><![CDATA[
+				if ($url[0] == 'information_id') {
+			]]></search>
+			<add><![CDATA[
+				if ($url[0] == 'topic_id') {
+					$this->request->get['topic_id'] = $url[1];
+				}	
+			]]></add>
+		</operation>
+		<operation>
+			<search position="before"><![CDATA[
+				} elseif (isset($this->request->get['information_id'])) {
+			]]></search>
+			<add><![CDATA[
+				} elseif (isset($this->request->get['topic_id'])) {
+					$this->request->get['route'] = 'information/topic/topic';
+			]]></add>
+		</operation>
+		
+		
+	</file>
+</modification>

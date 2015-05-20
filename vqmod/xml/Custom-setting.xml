@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+   <id>Custom setting in Admin</id>
+   <version>0.0</version>
+   <vqmver>2.X</vqmver>
+   <author>Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)</author>
+        <file name="admin/controller/setting/setting.php">
+                <operation info="add more link">
+                        <search position="before"><![CDATA[
+                        if (isset($this->request->post['config_comment']))
+                        ]]></search>
+
+                        <add><![CDATA[
+                            if (isset($this->request->post['config_facebook_fanpage'])) 
+                            {
+                                $data['config_facebook_fanpage'] = trim($this->request->post['config_facebook_fanpage']);
+                            } else {
+                               $data['config_facebook_fanpage'] = html_entity_decode($this->config->get('config_facebook_fanpage'), ENT_QUOTES, 'UTF-8');
+                            }
+                            if (isset($this->request->post['config_yahoo_id'])) 
+                            {
+                                $data['config_yahoo_id'] = trim($this->request->post['config_yahoo_id']);
+                            } else {
+                               $data['config_yahoo_id'] = $this->config->get('config_yahoo_id');
+                            }
+                            if (isset($this->request->post['config_skype_id'])) 
+                            {
+                                $data['config_skype_id'] = trim($this->request->post['config_skype_id']);
+                            } else {
+                               $data['config_skype_id'] = $this->config->get('config_skype_id');
+                            }
+                            if (isset($this->request->post['config_video_embed'])) 
+                            {
+                                $data['config_video_embed'] = trim($this->request->post['config_video_embed']);
+                            } else {
+                               $data['config_video_embed'] = $this->config->get('config_video_embed');
+                            }
+
+
+                            
+                        ]]></add>
+                </operation>
+        </file>
+
+
+
+    <file name="admin/view/template/setting/setting.tpl">
+    <operation>
+      <search position="after"><![CDATA[<li><a href="#tab-server" data-toggle="tab"><?php echo $tab_server; ?></a></li>]]></search>
+      <add><![CDATA[
+      <li><a href="#tab-custom-facebook-fanpage" data-toggle="tab"><?php echo '&raquo More options'; ?></a></li>
+      ]]></add>
+    </operation>
+    <operation>
+      <search  position="after"><![CDATA[<div class="tab-content">]]></search>
+      <add><![CDATA[
+        <div class="tab-pane" id="tab-custom-facebook-fanpage">
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-name"><?php echo 'Facebook Fanpage'; ?></label>
+            <div class="col-sm-4">
+               <input type="text" name="config_facebook_fanpage" value="<?php echo $config_facebook_fanpage; ?>" class="form-control" placeholder="enter your facebook fanpage">
+            </div>
+            <div class="col-sm-2  control-label">
+               <kbd>config_facebook_fanpage</kbd>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-name"><?php echo 'Yahoo ID'; ?></label>
+            <div class="col-sm-4">
+               <input type="textx" name="config_yahoo_id[id]" value="<?php echo $config_yahoo_id['id']; ?>" class="form-control" placeholder="enter your Yahoo ID">
+                <input type="text" name="config_yahoo_id[depart]" value="<?php echo $config_yahoo_id['depart']; ?>" class="form-control" placeholder="enter your depart">
+            </div>
+            <div class="col-sm-2  control-label">
+               <kbd>config_yahoo_id</kbd>
+            </div>
+          </div>
+
+           <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-name"><?php echo 'Skype ID'; ?></label>
+            <div class="col-sm-4">
+               <input type="text" name="config_skype_id[id]" value="<?php echo $config_skype_id['id']; ?>" class="form-control" placeholder="enter your skype ID">
+                <input type="textx" name="config_skype_id[depart]" value="<?php echo $config_skype_id['depart']; ?>" class="form-control" placeholder="enter your depart">
+            </div>
+            <div class="col-sm-2  control-label">
+               <kbd>config_skype_id</kbd>
+            </div>
+          </div>
+
+
+           <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-name"><?php echo 'Video embed code'; ?></label>
+            <div class="col-sm-4">
+                 <textarea name="config_video_embed" id="input-css" class="form-control" cols="1" rows="10" ><?php echo $config_video_embed; ?></textarea>
+            </div>
+            <div class="col-sm-2  control-label">
+               <kbd>config_video_embed</kbd>
+            </div>
+          </div>
+
+
+          <hr width="100%">
+            <p><strong>How to use:</strong></p>
+              <pre>
+                #check name of variables and call by $config->get method
+                #author: Michael Tran
+
+                global $config; 
+                if ($config->get('config_facebook_fanpage')) {
+                   echo html_entity_decode($config->get('config_facebook_fanpage'), ENT_QUOTES, 'UTF-8'); 
+              </pre>
+        </div>
+
+       
+      ]]></add>
+    </operation>
+  </file>
+</modification>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<id>Remove Power by</id>
+	<version>0.0</version>
+    <vqmver>2.X</vqmver>
+    <author>Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)</author>
+    <link>http://www.facebook.com</link>
+    <file name="catalog/controller/common/footer.php">
+       <operation info="remove power footer">
+            <search position="replace">
+            <![CDATA[
+              $data['powered'] = sprintf($this->language->get('text_powered'), $this->config->get('config_name'), date('Y', time()));
+            ]]>
+         	</search>
+            <add>
+            <![CDATA[
+            $data['powered'] = ' &copy; '.date('Y', time()).' '.$this->config->get('config_name').', '.'All rights reserved'.'<br />Designed by <a href="https://www.facebook.com/vietguy18" target="_Blank">Michael Tran</a>';
+            ]]>
+        	 </add>
+        </operation>
+    </file>
+
+    <file name="admin/controller/common/footer.php">
+       <operation info="remove power footer">
+            <search position="replace">
+            <![CDATA[
+              $data['text_footer'] = $this->language->get('text_footer');
+            ]]>
+            </search>
+            <add>
+            <![CDATA[
+            $data['text_footer'] = '';
+            ]]>
+             </add>
+        </operation>
+    </file>
+
+
+</modification>

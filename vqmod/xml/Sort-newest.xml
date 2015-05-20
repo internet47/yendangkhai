@@ -1,0 +1,37 @@
+<modification>
+	<id>Sort newest products</id>
+	<version>0.0</version>
+    <vqmver>2.X</vqmver>
+    <author>Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)</author>
+	<file name="admin/controller/catalog/product.php">
+		<operation>
+			<search position="replace"><![CDATA[
+			$sort = 'pd.name';
+			]]></search>
+			<add><![CDATA[
+			$sort = 'p.date_added';
+			]]></add>
+		</operation>
+		<operation>
+			<search position="replace"><![CDATA[
+			$order = 'ASC';
+			]]></search>
+			<add><![CDATA[
+			$order = 'DESC';
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="admin/model/catalog/product.php">
+		<operation>
+			<search position="replace"><![CDATA[
+			'p.sort_order'
+			]]></search>
+			<add><![CDATA[
+			'p.sort_order',
+			'p.date_added' //add this column name
+			]]></add>
+		</operation>
+		
+	</file>
+</modification>

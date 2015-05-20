@@ -1,0 +1,106 @@
+---------- Date: 2015-03-04 02:34:40 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=setting/setting&token=8ca3a5e58206a609a2f48dc279d8ae0c
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Custom-setting.xml
+   id        : Custom setting in Admin
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/controller/setting/setting.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $data['logout'] = $this->url->link('common/logout', 'token=' . $this->session->data['token'], 'SSL');
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-04 02:34:41 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=setting/setting/template&token=8ca3a5e58206a609a2f48dc279d8ae0c&template=default
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Custom-setting.xml
+   id        : Custom setting in Admin
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/controller/setting/setting.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $data['logout'] = $this->url->link('common/logout', 'token=' . $this->session->data['token'], 'SSL');
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-04 02:34:41 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=setting/setting/country&token=8ca3a5e58206a609a2f48dc279d8ae0c&country_id=230
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Custom-setting.xml
+   id        : Custom setting in Admin
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/controller/setting/setting.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $data['logout'] = $this->url->link('common/logout', 'token=' . $this->session->data['token'], 'SSL');
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-04 06:41:16 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Custom-top-menu-front-end.xml
+   id        : Custom menu front end
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : catalog/view/theme/*/template/common/header.tpl(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): </ul>
+                        </div>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-04 06:41:21 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Custom-top-menu-front-end.xml
+   id        : Custom menu front end
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : catalog/view/theme/*/template/common/header.tpl(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): </ul>
+                        </div>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-04 06:41:21 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Custom-top-menu-front-end.xml
+   id        : Custom menu front end
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : catalog/view/theme/*/template/common/header.tpl(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): </ul>
+                        </div>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-04 06:41:21 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Custom-top-menu-front-end.xml
+   id        : Custom menu front end
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : catalog/view/theme/*/template/common/header.tpl(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): </ul>
+                        </div>
+
+----------------------------------------------------------------------
+
+

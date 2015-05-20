@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+
+	<id>filmanager</id>
+	<version>1.0.0</version>
+	<vqmver>2.1.5</vqmver>
+	<author>skype: mikkythemouse</author>
+	
+	<file name="admin/view/template/common/menu.tpl">
+		<operation>
+			<search position="after"><![CDATA[<li><a href="<?php echo $setting; ?>"><?php echo $text_setting; ?></a></li>]]></search>
+			<add><![CDATA[<li><a href="<?php echo $filemanager_my; ?>"><?php echo $text_filemanager_my; ?></a></li>]]></add>
+		</operation>
+	
+	</file>
+	
+	<file name="admin/controller/common/menu.php">
+		<operation>
+			<search position="after" index="1"><![CDATA[$data['text_feed'] = $this->language->get('text_feed');]]></search>
+			<add><![CDATA[$data['text_filemanager_my'] = $this->language->get('text_filemanager_my');]]></add>
+		</operation>
+		
+		<operation>
+			<search position="after" index="1"><![CDATA[$this->load->language('common/menu');]]></search>
+			<add><![CDATA[$this->language->load('custom/filemanager_my');]]></add>
+		</operation>
+		
+		<operation>
+			<search position="after" index="1"><![CDATA[$data['feed'] = $this->url->link('extension/feed', 'token=' . $this->session->data['token'], 'SSL');]]></search>
+			<add><![CDATA[$data['filemanager_my'] = $this->url->link('custom/filemanager', 'token=' . $this->session->data['token'], 'SSL');]]></add>
+		</operation>
+	
+	</file>
+	
+	<file name="admin/view/template/common/header.tpl">
+		<operation>
+			<search position="replace" index="1"><![CDATA[<script type="text/javascript" src="view/javascript/jquery/jquery-2.1.1.min.js"></script>]]></search>
+			<add><![CDATA[<?php echo (isset($_GET['route']) and $_GET['route'] == 'custom/filemanager') ? '<script type="text/javascript" src="view/javascript/manager/js/jquery-1.7.1.min.js"></script>' : '<script type="text/javascript" src="view/javascript/jquery/jquery-2.1.1.min.js"></script>' ;?>]]></add>
+		</operation>
+	</file>
+	
+	
+	
+</modification>

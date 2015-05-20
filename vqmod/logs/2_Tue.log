@@ -1,0 +1,308 @@
+---------- Date: 2015-03-03 02:30:18 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=module/vqmod_manager&token=01f996b6d33e8421cbe4a24316bfe428
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Sort-newest.xml
+   id        : Sort newest products
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/model/catalog/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $sort_data = array(
+			'pd.name',
+			'p.model',
+			'p.price',
+			'p.quantity',
+			'p.status',
+			'p.sort_order'
+		);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-03 02:30:24 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/&token=01f996b6d33e8421cbe4a24316bfe428
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Sort-newest.xml
+   id        : Sort newest products
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/model/catalog/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $sort_data = array(
+			'pd.name',
+			'p.model',
+			'p.price',
+			'p.quantity',
+			'p.status',
+			'p.sort_order'
+		);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-03 02:30:29 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/&token=01f996b6d33e8421cbe4a24316bfe428
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Sort-newest.xml
+   id        : Sort newest products
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/model/catalog/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $sort_data = array(
+			'pd.name',
+			'p.model',
+			'p.price',
+			'p.quantity',
+			'p.status',
+			'p.sort_order'
+		);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-03 02:30:30 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=extension/modification&token=01f996b6d33e8421cbe4a24316bfe428
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Sort-newest.xml
+   id        : Sort newest products
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/model/catalog/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $sort_data = array(
+			'pd.name',
+			'p.model',
+			'p.price',
+			'p.quantity',
+			'p.status',
+			'p.sort_order'
+		);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-03 02:30:31 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/&token=01f996b6d33e8421cbe4a24316bfe428
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Sort-newest.xml
+   id        : Sort newest products
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/model/catalog/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $sort_data = array(
+			'pd.name',
+			'p.model',
+			'p.price',
+			'p.quantity',
+			'p.status',
+			'p.sort_order'
+		);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-03 02:30:32 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/&token=01f996b6d33e8421cbe4a24316bfe428
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Sort-newest.xml
+   id        : Sort newest products
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/model/catalog/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $sort_data = array(
+			'pd.name',
+			'p.model',
+			'p.price',
+			'p.quantity',
+			'p.status',
+			'p.sort_order'
+		);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-03 02:30:33 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/&token=01f996b6d33e8421cbe4a24316bfe428
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Sort-newest.xml
+   id        : Sort newest products
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/model/catalog/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $sort_data = array(
+			'pd.name',
+			'p.model',
+			'p.price',
+			'p.quantity',
+			'p.status',
+			'p.sort_order'
+		);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-03 02:30:33 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/&token=01f996b6d33e8421cbe4a24316bfe428
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Sort-newest.xml
+   id        : Sort newest products
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/model/catalog/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $sort_data = array(
+			'pd.name',
+			'p.model',
+			'p.price',
+			'p.quantity',
+			'p.status',
+			'p.sort_order'
+		);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-03 02:30:34 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/&token=01f996b6d33e8421cbe4a24316bfe428
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Sort-newest.xml
+   id        : Sort newest products
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/model/catalog/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $sort_data = array(
+			'pd.name',
+			'p.model',
+			'p.price',
+			'p.quantity',
+			'p.status',
+			'p.sort_order'
+		);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-03 02:30:34 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/&token=01f996b6d33e8421cbe4a24316bfe428
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Sort-newest.xml
+   id        : Sort newest products
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/model/catalog/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $sort_data = array(
+			'pd.name',
+			'p.model',
+			'p.price',
+			'p.quantity',
+			'p.status',
+			'p.sort_order'
+		);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-03 02:30:35 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/&token=01f996b6d33e8421cbe4a24316bfe428
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Sort-newest.xml
+   id        : Sort newest products
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/model/catalog/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $sort_data = array(
+			'pd.name',
+			'p.model',
+			'p.price',
+			'p.quantity',
+			'p.status',
+			'p.sort_order'
+		);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-03 02:31:47 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/&token=01f996b6d33e8421cbe4a24316bfe428
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Sort-newest.xml
+   id        : Sort newest products
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/model/catalog/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $sort_data = array(
+			'pd.name',
+			'p.model',
+			'p.price',
+			'p.quantity',
+			'p.status',
+			'p.sort_order'
+		);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-03 02:31:48 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/&token=01f996b6d33e8421cbe4a24316bfe428
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Sort-newest.xml
+   id        : Sort newest products
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/model/catalog/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $sort_data = array(
+			'pd.name',
+			'p.model',
+			'p.price',
+			'p.quantity',
+			'p.status',
+			'p.sort_order'
+		);
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-03 02:31:49 ~ IP : 115.78.164.113 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/&token=01f996b6d33e8421cbe4a24316bfe428
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Sort-newest.xml
+   id        : Sort newest products
+   version   : 0.0
+   vqmver    : 2.X
+   author    : Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)
+
+File Name    : admin/model/catalog/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $sort_data = array(
+			'pd.name',
+			'p.model',
+			'p.price',
+			'p.quantity',
+			'p.status',
+			'p.sort_order'
+		);
+
+----------------------------------------------------------------------
+
+

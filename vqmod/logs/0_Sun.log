@@ -1,0 +1,42 @@
+---------- Date: 2015-03-01 11:39:45 ~ IP : 115.77.35.161 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/add&token=b6734b3bab2d436305c4e5f822b3184b
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Auto-Fill_Model_Number.xml
+   id        : Auto-Fill Unique/Default Model Number
+   version   : 1.1
+   vqmver    : 2.1.5
+   author    : Concept211
+
+File Name    : admin/view/template/catalog/product_form.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <input type="text" name="model" value="<?php echo $model; ?>" />
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-01 11:45:40 ~ IP : 115.77.35.161 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/add&token=b6734b3bab2d436305c4e5f822b3184b
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Auto-Fill_Model_Number.xml
+   id        : Auto-Fill Unique/Default Model Number
+   version   : 1.1
+   vqmver    : 2.1.5
+   author    : Concept211
+
+File Name    : admin/view/template/catalog/product_form.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <input type="text" name="model" value="<?php echo $model; ?>" />
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-03-01 11:46:55 ~ IP : 115.77.35.161 ----------
+REQUEST URI : /admin/index.php?route=catalog/product/add&token=b6734b3bab2d436305c4e5f822b3184b
+MOD DETAILS:
+   modFile   : /home/internet47/domains/muaban.internet47.net/public_html/vqmod/xml/Auto-Fill_Model_Number.xml
+   id        : Auto-Fill Unique/Default Model Number
+   version   : 1.1
+   vqmver    : 2.1.5
+   author    : Concept211
+
+File Name    : admin/view/template/catalog/product_form.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <input type="text" name="model" value="<?php echo $model; ?>" />
+----------------------------------------------------------------------
+
+

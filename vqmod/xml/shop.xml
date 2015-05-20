@@ -1,0 +1,66 @@
+<modification>
+	<id>Add Shop module to admin menu</id>
+	<version>OC 2.x</version>
+	<vqmver>2.x</vqmver>
+	<author>Michael Tran</author>
+
+	<file name="catalog/controller/common/footer.php">
+		<operation>
+			<search position="after" index="1"><![CDATA[
+				$data['text_account']
+			]]></search>
+			<add><![CDATA[
+				$data['shop'] = $this->url->link('information/shop');
+				$data['text_shop'] = $this->language->get('text_shop');
+			]]></add>
+		</operation>
+	</file>
+	
+
+	<file name="admin/view/template/common/menu.tpl">
+		
+		<operation>
+			<search position="after"><![CDATA[
+				<li><a href="<?php echo $feed; ?>"><?php echo $text_feed; ?></a></li>
+			]]></search>
+			<add><![CDATA[
+				<li><a href="<?php echo $shop; ?>">Shop</a></li>
+			]]></add>
+		</operation>
+		
+	</file>
+	<file name="admin/controller/common/menu.php">
+		<operation>
+			<search position="after"><![CDATA[
+				$data['feed'] = $this->url->link('extension/feed', 'token=' . $this->session->data['token'], 'SSL');	
+			]]></search>
+			<add><![CDATA[
+				$data['shop'] = $this->url->link('extension/shop', 'token=' . $this->session->data['token'], 'SSL');	
+			]]></add>
+		</operation>
+		
+	</file>
+	<file name="catalog/controller/common/seo_url.php">
+		<operation>
+			<search position="before"><![CDATA[
+				if ($url[0] == 'information_id') {
+			]]></search>
+			<add><![CDATA[
+				if ($url[0] == 'shop_id') {
+					$this->request->get['shop_id'] = $url[1];
+				}	
+			]]></add>
+		</operation>
+		<operation>
+			<search position="before"><![CDATA[
+				} elseif (isset($this->request->get['information_id'])) {
+			]]></search>
+			<add><![CDATA[
+				} elseif (isset($this->request->get['shop_id'])) {
+					$this->request->get['route'] = 'information/shop/shop';
+			]]></add>
+		</operation>
+		
+		
+	</file>
+</modification>

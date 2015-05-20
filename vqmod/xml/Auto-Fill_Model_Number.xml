@@ -1,0 +1,16 @@
+<modification>
+	<id>Auto Generate Model Number</id>
+	<version>0.0</version>
+    <vqmver>2.X</vqmver>
+    <author>Michael Tran (Email: quocviet.inc@gmail.com, Skype: vietguy_18)</author>
+	<file name="admin/view/template/catalog/product_form.tpl">
+		<operation>
+			<search position="replace"><![CDATA[
+			<input type="text" name="model" value="<?php echo $model; ?>" placeholder="<?php echo $entry_model; ?>" id="input-model" class="form-control" />
+			]]></search>
+			<add><![CDATA[
+			<input type="text" name="model" value="<?php echo ($model==''?'MCODE-'.substr(time(),-8):$model); ?>" placeholder="<?php echo $entry_model; ?>" id="input-model" class="form-control" />
+			]]></add>
+		</operation>
+	</file>
+</modification>
